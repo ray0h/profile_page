@@ -2,8 +2,9 @@
   <div id="app">
     <Navbar></Navbar>
     <p>Hi, this is the page.</p>
-    <p>What is the color scheme?  Font?  Any distracting animations?</p>
+    <p class="bg-red-100">What was the color scheme?  Font?  Any distracting animations?</p>
     <p>Should plan to have small intro with picture</p>
+    <Intro/>
     <p>Section with several projects</p>
     <p>Contact Me</p>
     <p>Make it Responsive (use Tailwind?)</p>
@@ -13,19 +14,18 @@
 
 <script>
 import Navbar from './components/NavBar'
+import Intro from './components/Intro'
+
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar, Intro
   }
 }
 </script>
 
 <style>
-body {
-  margin: 0;
-  padding: 0;
-}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
