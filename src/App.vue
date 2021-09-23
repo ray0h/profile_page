@@ -1,10 +1,8 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <p>Hi, this is the page.</p>
-    <p class="bg-red-100">What was the color scheme?  Font?  Any distracting animations?</p>
-    <p>Should plan to have small intro with picture</p>
     <Intro/>
+    <p class="">What was the color scheme?  Font?  Any distracting animations?</p>
     <p>Section with several projects</p>
     <p>Contact Me</p>
     <p>Make it Responsive (use Tailwind?)</p>
