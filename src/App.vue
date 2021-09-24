@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <Intro/>
+    <a name="about"><Intro/></a>
     <p class="">What was the color scheme?  Font?  Any distracting animations?</p>
     <p>Section with several projects</p>
     <p>Contact Me</p>
-    <p>Make it Responsive (use Tailwind?)</p>
+    <p><a name="contact"></a> Make it Responsive (use Tailwind?)</p>
 
   </div>
 </template>
