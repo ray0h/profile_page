@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:h-screen flex items-center">
+  <div class="h-screen bg-blue-300 flex items-center">
     <div id="intro-container" class ="flex justify-center">
       <div class="flex flex-col sm:flex-row w-full sm:w-3/4">
         <div id="intro-img-container" class="p-4 sm:w-1/3">

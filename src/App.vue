@@ -2,13 +2,12 @@
   <div id="app">
     <Navbar/>
     <Intro/>
-    <p class="">What about a color scheme?  Font?  Any distracting animations?</p>
-    <br/>
+    <!-- <p class="">What about a color scheme?  Font?  Any distracting animations?</p> -->
+    <!-- <br/> -->
     <a name="about"></a>
     <AboutMe/>
-    <!-- <p>Section with several projects</p>
-    <p>Make it Responsive (use Tailwind!)</p>
-    <p>Contact Me</p> -->
+    <a name="projects"></a>
+    <Projects/>
     <a name="contact"></a>
     <Contact/>
   </div>
@@ -18,12 +17,13 @@
 import Navbar from './components/NavBar'
 import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 export default {
   name: 'App',
   components: {
-    Navbar, Intro, AboutMe, Contact
+    Navbar, Intro, AboutMe, Projects, Contact
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-Container" class="bg-blue-300 h-screen mx-2 mt-6 p-4">
+  <div id="contact-Container" class="h-screen mx-2 mt-10 p-4">
     <h2 class="text-lg">Drop me a line</h2>
     <ContactForm/>
     <div id="social-links" class="flex justify-around sm:w-1/2 mt-8 mx-auto">
