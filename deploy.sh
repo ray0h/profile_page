@@ -13,9 +13,9 @@ cd dist
 
 echo 'www.raymondoh.com' > CNAME
 
+git init
 git add -A 
 git commit -m "deploy"
-git push origin main
+git branch -M main
 
-gh-pages -d build
-# git push -f git@github.com:ray0h/profile_page.git main:gh-pages
+git push -f https://github.com/ray0h/profile_page.git main:gh-pages
