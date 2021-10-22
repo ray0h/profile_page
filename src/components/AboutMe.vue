@@ -5,7 +5,7 @@
         <img class="rounded m-auto" src="../assets/ro.jpeg" width="250" height="250" alt="Ray Oh pic"/>
       </div>
       <div id="about-text" class="w-full sm:w-2/3">
-        <p class="text-justify text-sm leading-tight sm:leading-normal"><span class="text-lg leading-tight">My name is Raymond Oh.</span> I am a Ceramics / Materials Engineer who has worked in R&D roles at several manufacturing plants.  Throughout Covid, I've been learning and falling in love with Javascript and other technology related to modern software development.  I am looking for an opportunity to apply my previous analytical experiences into a software developer role.</p><br/>
+        <p class="text-justify text-sm leading-tight sm:leading-normal"><span class="text-lg leading-tight">My name is Raymond Oh.</span> I am a Ceramics / Materials Engineer who has previously worked in R&D roles at several manufacturing plants.  Throughout Covid, I've been learning and falling in love with Javascript and other technology related to modern software development.  I am looking for an opportunity to apply my previous analytical experiences into a software developer role.</p><br/>
         <p class="text-justify text-sm leading-tight sm:leading-normal">Away from the screen, I enjoy listening to 90's hip hop or NPR podcasts, preferably while on a trail run or working through a new recipe in the kitchen.</p>
       </div>
     </div><br/>

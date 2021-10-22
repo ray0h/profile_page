@@ -7,7 +7,7 @@
         </div>
         <div id="intro-txt-container" class="bg-gray-100 p-4 mx-2 sm: mx-0 sm:w-2/3">
           <h2 class="font-bold sm:text-left text-2xl sm:text-3xl">Hello, my Name is <span class="text-blue-400">Ray</span></h2>
-          <p class="mt-4 text-justify text-sm">I am a Materials Engineer looking to transition my problem solving skills to software development. This is my page. <br/><br/> I've spent alot of the COVID pandemic in a bubble with Javascript and Ruby.</p>
+          <p class="mt-4 text-justify text-sm">I am a Materials Engineer looking to transition my problem solving skills to software development. <br/><br/> I've spent most of the COVID pandemic in a bubble with Javascript and Ruby.</p>
         </div>
       </div>
     </div>

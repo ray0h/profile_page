@@ -1,13 +1,13 @@
 <template>
   <div id="project-container" class="h-auto md:h-screen bg-blue-300 mx-2 mt-10 p-4">
-    Some Work I've done
+    <h3 class="font-bold text-lg mb-4">Some Work I've done</h3>
     <div id="grid-container" class="grid grid-rows-4 grid-cols-6 gap-4 h-auto md:h-4/5">
       <div id="peg-game-container" class="bg-gray-100 border border-black rounded row-span-1 md:row-span-4 col-span-6 md:col-span-2"> 
         <div id="peg-game-info" class="h-18 invisible">
           <div id="peg-game-info-text" class="mb-4 md:mb-36">
             <span class="font-bold">Peg Game</span>
             <p class="px-2 text-left text-sm">
-              Simple game made famous by a national restaurant chain. Made using vanilla JS with a TDD approach using Jest.   
+              Simple board game made famous by a national restaurant chain. Jump pegs until only one remains.  Made simply using vanilla JS with a Test Driven Development (TDD) approach using Jest.   
             </p>
           </div>
           <div id="peg-game-info-tech" class="">
@@ -27,7 +27,7 @@
           <div id="periodic-info-text">
             <span class="font-bold">Periodic Table</span>
             <p class="px-1 text-left text-xs md:text-sm mb-4">
-            Interactive periodic table.  Find out more about your favorite element.  (Swiping right on you Titanium)  Made using React and modeled off other online periodic tables.
+            Front end, interactive periodic table.  Find out more about your favorite element (Swiping right on you Titanium).  Made using React and modeled off other online periodic tables.
             </p>
           </div>
           <div id="periodic-info-tech" class="mt-2">
@@ -46,7 +46,7 @@
         <div id="inventory-info" class="p-1 invisible">
           <div id="inventory-info-text">
             <span class="font-bold text-sm">Node Inventory App</span>
-            <p class="px-1 text-left text-sm md:text-xs">Backend based grocery store inventory CRUD app.  Views created with Pug.</p>
+            <p class="px-1 text-left text-sm md:text-xs">Backend based CRUD app to track a grocery store's inventory.  Views created with Pug compiler.</p>
           </div>
           <div id="inventory-info-tech" class="mt-6">
             <div class="flex justify-around w-4/5 mx-auto">
