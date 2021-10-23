@@ -2,8 +2,6 @@
   <div id="app">
     <Navbar/>
     <Intro/>
-    <!-- <p class="">What about a color scheme?  Font?  Any distracting animations?</p> -->
-    <!-- <br/> -->
     <a name="about"></a>
     <AboutMe/>
     <a name="projects"></a>
