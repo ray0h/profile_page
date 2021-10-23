@@ -6,10 +6,17 @@
       </div>
       <div id="about-text" class="w-full sm:w-2/3">
         <p class="text-justify text-md sm:text-xl leading-tight lg:leading-normal"><span class="font-bold text-xl sm:text-2xl leading-tight">My name is Raymond Oh.</span> I am a Ceramics / Materials Engineer who has previously worked in R&D roles at several manufacturing plants.  Throughout Covid, I've been learning and falling in love with Javascript and other technology related to modern software development.  I am looking for an opportunity to apply my previous analytical experiences into a software developer role.</p><br/>
+        <p class="text-justify text-md sm:text-xl leading-tight sm:leading-normal">
+        I've taken the self taught approach and have learned using several wonderful online resources including (but not limited to) 
+        <a href="https://www.freecodecamp.org/" class="underline">FreeCodeCamp.org</a>, 
+        <a href="https://fullstackopen.com/en/" class="underline">FullStackOpen</a>, 
+        <a href="https://www.theodinproject.com/" class="underline">The Odin Project</a>, 
+        <a href="https://developer.mozilla.org/" class="underline">MDN Web Docs</a>, and ALOT of documentation.)
+        </p><br/>
         <p class="text-justify text-md sm:text-xl leading-tight sm:leading-normal">Away from the screen, I enjoy listening to 90's hip hop or NPR podcasts, preferably while on a trail run or working through a new recipe in the kitchen.</p>
       </div>
     </div><br/>
-    <div id="skills-card" class="w-full sm:w-4/5 m-auto sm:grid sm:grid-cols-2 sm:gap-5">
+    <div id="skills-card" class="w-full sm:w-4/5 m-auto sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-5">
       <!-- icons pulled from DevIcons -->
       <div class="my-2">
         <div class="text-left text-xl font-bold mb-2">Languages:</div>

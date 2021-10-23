@@ -1,22 +1,20 @@
 <template>
   <div id="navContainer" class="md:bg-gray-400 md:bg-opacity-90 text-2xl bg-transparent fixed right-0">
     <div id="fullNav" class="p-2 mr-2 text-right w-screen hidden md:block">
-      <a href="#about">About</a>  |
-      <a href="#projects">Projects</a> |
-      <a href="#contact">Contact</a>
+      <a href="#about" class="hover:text-white">About</a>  |
+      <a href="#projects" class="hover:text-white">Projects</a> |
+      <a href="#contact" class="hover:text-white">Contact</a>
     </div>
     <div id="hamburger" class= "mt-4 mr-4 md:hidden absolute top-0.5 right-0.5 cursor-pointer transition ease-in-out transform hover:scale-125" :class="{open: isOpen}" @click="toggleMenu">
       <div class="dash dash-top"></div>
       <div class="dash dash-mid"></div>
       <div class="dash dash-bot"></div>
     </div>
-    <!-- <div id="smallNav" :class="{open: isOpen}" class ="w-screen bg-green-100 p-1"> -->
-      <ul id="smallNav" :class="{hidden: !isOpen}" class ="w-screen bg-gray-400 bg-opacity-90 pt-6">
-        <li><a @click="toggleMenu" href="#about">About</a></li>
-        <li><a @click="toggleMenu" href="#projects">Projects</a></li>
-        <li><a @click="toggleMenu" href="#contact">Contact</a></li>
-      </ul>
-    <!-- </div> -->
+    <ul id="smallNav" :class="{hidden: !isOpen}" class ="w-screen bg-gray-400 bg-opacity-90 py-4">
+      <li><a @click="toggleMenu" href="#about" class="hover:text-white">About</a></li>
+      <li><a @click="toggleMenu" href="#projects" class="hover:text-white">Projects</a></li>
+      <li><a @click="toggleMenu" href="#contact" class="hover:text-white">Contact</a></li>
+    </ul>
   </div>
 </template>
 
