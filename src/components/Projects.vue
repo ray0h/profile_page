@@ -6,16 +6,16 @@
         <div id="peg-game-info" class="invisible p-4">
           <div id="peg-game-info-text" class="mb-4">
             <span class="font-bold text-lg">Peg Game</span>
-            <p class="px-2 text-left text-md sm:text-lg">
+            <p class="px-2 text-justify text-md sm:text-lg">
               Simple board game made famous by a national restaurant chain. Jump pegs until only one remains.  Made using simply vanilla JS and a Test Driven Development (TDD) approach with Jest.   
             </p>
           </div>
           <div id="peg-game-info-tech">
-            <div class="mx-auto w-4/5 sm: w-3/5 lg:w-4/5 flex justify-around">
-              <span class="text-md px-2 py-1 m-auto bg-blue-300">Javascript</span>
-              <span class="text-md px-2 py-1 m-auto bg-blue-300 ">Jest</span>
+            <div class="mx-auto w-full sm:w-3/5 flex justify-around">
+              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">Javascript</span>
+              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300 ">Jest</span>
             </div>
-            <div class="mx-auto w-1/3 lg:w-1/2 pt-4 flex justify-around">
+            <div class="mx-auto w-1/2 lg:w-1/2 pt-4 flex justify-around">
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://ray0h.github.io/peg-game" target="_blank">Live</a>
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/peg-game" target="_blank">Code</a>
             </div>
@@ -26,16 +26,16 @@
         <div id="periodic-info" class="invisible p-4">
           <div id="periodic-info-text">
             <span class="font-bold text-lg">Periodic Table</span>
-            <p class="px-1 text-left text-md xl:text-lg mb-4">
+            <p class="px-1 text-justify text-md xl:text-lg mb-4">
             Front end, interactive periodic table.  Find out more about your favorite element (Swiping right on you Titanium).  Made using React and unashamedly modeled off other online periodic tables.
             </p>
           </div>
           <div id="periodic-info-tech" class="mt-2">
-            <div class="w-3/5 flex justify-around mx-auto">
-              <span class="text-md px-2 py-1 m-auto bg-blue-300">React</span>
-              <span class="text-md px-2 py-1 m-auto bg-blue-300">TailwindCSS</span>
+            <div class="w-full sm:w-3/5 flex justify-around mx-auto">
+              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">React</span>
+              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">TailwindCSS</span>
             </div>
-            <div class="w-1/3 lg:w-1/5 mt-2 flex justify-around mx-auto">
+            <div class="w-1/2 lg:w-1/5 mt-2 flex justify-around mx-auto">
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://ray0h.github.io/periodic-table" target="_blank">Live</a>
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/periodic-table" target="_blank">Code</a>
             </div>
@@ -46,15 +46,15 @@
         <div id="inventory-info" class="invisible p-4">
           <div id="inventory-info-text">
             <span class="font-bold text-lg">Node Inventory App</span>
-            <p class="px-1 text-left text-lg lg:text-sm xl:text-md">Backend based CRUD app to track a grocery store's inventory.  Views created with Pug compiler.</p>
+            <p class="px-1 text-justify text-lg lg:text-sm xl:text-md">Backend based CRUD app to track a grocery store's inventory.  Views created with Pug compiler.</p>
           </div>
           <div id="inventory-info-tech" class="mt-4">
-            <div class="flex justify-around w-4/5 lg:w-full mx-auto">
-              <div class="text-md lg:text-sm px-2 py-1 bg-blue-300 m-auto">Node</div>
-              <div class="text-md lg:text-sm px-2 py-1 bg-blue-300 m-auto">Express</div>
-              <div class="text-md lg:text-sm px-2 py-1 bg-blue-300 m-auto">MongoDB</div>
+            <div class="flex justify-around w-full lg:w-full mx-auto">
+              <div class="text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">Node</div>
+              <div class="text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">Express</div>
+              <div class="text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">MongoDB</div>
             </div>
-            <div class="py-2 my-2 flex justify-around w-1/3 lg:w-1/2 mx-auto">
+            <div class="py-2 my-2 flex justify-around w-1/2 mx-auto">
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://node-inventory-app.herokuapp.com/" target="_blank">Live</a>
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/TOP-Node-InventoryApp" target="_blank">Code</a>
             </div>
@@ -65,15 +65,15 @@
         <div id="flightbooker-info" class="invisible p-4">
           <div id="flightbooker-info-text">
             <span class="font-bold text-lg">Airline Flight Booker</span>
-            <p class="text-lg lg:text-sm xl:text-md text-left px-2">Rails app to book airline flights, with ActionMailer to send confirmation emails.</p>  
+            <p class="text-lg lg:text-sm xl:text-md text-justify px-2">Rails app to book airline flights, with ActionMailer to send confirmation emails.</p>  
           </div>
           <div id="flightbooker-info-tech" class="mt-4">
-            <div class="flex w-4/5 lg:w-full justify-around mx-auto">
-              <div class="text-md lg:text-sm px-2 py-1 bg-blue-300 m-auto">Rails</div>
-              <div class="text-md lg:text-sm px-2 py-1 bg-blue-300 m-auto">MongoDB</div>
-              <div class="text-md lg:text-xs xl:text-sm px-2 py-1.5 bg-blue-300 m-auto">Tailwind CSS</div>
+            <div class="flex justify-around w-full lg:w-full mx-auto">
+              <div class="text-xs sm:text-sm px-1 py-1 bg-blue-300 m-auto">Rails</div>
+              <div class="text-xs sm:text-sm px-1 py-1 bg-blue-300 m-auto">MongoDB</div>
+              <div class="text-xs sm:text-sm px-1 py-1 bg-blue-300 m-auto">Tailwind CSS</div>
             </div>
-            <div class="w-1/3 lg:w-1/2 py-2 my-2 mx-auto flex justify-around">
+            <div class="w-1/2 py-2 my-2 mx-auto flex justify-around">
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://rails-flightbooker-app.herokuapp.com/" target="_blank">Live</a>
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/TOP-Rails-flight-booker" target="_blank">Code</a>
             </div>

@@ -1,6 +1,6 @@
 <template>
   <div id="contact-Container" class="h-screen mx-auto mt-10 p-4">
-    <h2 class="font-bold text-2xl">Drop me a line</h2>
+    <h2 class="font-bold text-2xl mb-4">Drop me a line</h2>
     <ContactForm/>
     <div id="social-links" class="flex justify-around md:w-1/2 mt-8 mx-auto">
       <a href="https://www.linkedin.com/in/raymond-oh" target="_blank"><img src="../assets/linkedinLogo.svg" alt="linked in logo" width="50"> </a>
@@ -12,6 +12,7 @@
 
 <script>
 import ContactForm from './ContactForm'
+
 export default {
   name: 'Contact',
   components: {

@@ -10,6 +10,7 @@
     <Projects/>
     <a name="contact"></a>
     <Contact/>
+    <Footer/>
   </div>
 </template>
 
@@ -19,11 +20,12 @@ import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    Navbar, Intro, AboutMe, Projects, Contact
+    Navbar, Intro, AboutMe, Projects, Contact, Footer
   }
 }
 </script>
