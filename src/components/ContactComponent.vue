@@ -14,7 +14,7 @@
 import ContactForm from './ContactForm'
 
 export default {
-  name: 'Contact',
+  name: 'ContactComponent',
   components: {
     ContactForm
   }

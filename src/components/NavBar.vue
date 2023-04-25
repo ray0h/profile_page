@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'Navbar',
+  name: 'NavBar',
   data: function() {
     return {
       isOpen: false

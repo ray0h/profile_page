@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: "FooterComponent",
   data: function() {
     return {
       yr: new Date().getFullYear()

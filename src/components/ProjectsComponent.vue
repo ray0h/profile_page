@@ -86,7 +86,7 @@
 
 <script>
 export default {
-  name: 'Project'
+  name: 'ProjectsComponent'
 }
 </script>
 

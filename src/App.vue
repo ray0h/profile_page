@@ -1,29 +1,29 @@
 <template>
   <div id="app">
-    <Navbar/>
-    <Intro/>
+    <Nav-Bar/>
+    <Intro-Component/>
     <a name="about"></a>
-    <AboutMe/>
+    <About-Me/>
     <a name="projects"></a>
-    <Projects/>
+    <Projects-Component/>
     <a name="contact"></a>
-    <Contact/>
-    <Footer/>
+    <Contact-Component/>
+    <Footer-Component/>
   </div>
 </template>
 
 <script>
-import Navbar from './components/NavBar'
-import Intro from './components/Intro'
+import NavBar from './components/NavBar'
+import IntroComponent from './components/IntroComponent'
 import AboutMe from './components/AboutMe'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import ProjectsComponent from './components/ProjectsComponent'
+import ContactComponent from './components/ContactComponent'
+import FooterComponent from './components/FooterComponent'
 
 export default {
   name: 'App',
   components: {
-    Navbar, Intro, AboutMe, Projects, Contact, Footer
+    NavBar, IntroComponent, AboutMe, ProjectsComponent, ContactComponent, FooterComponent
   }
 }
 </script>
