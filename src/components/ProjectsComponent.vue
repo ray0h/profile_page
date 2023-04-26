@@ -12,8 +12,8 @@
           </div>
           <div id="peg-game-info-tech" class="mt-2">
             <div class="mx-auto w-full sm:w-3/5 flex justify-around">
-              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">Javascript</span>
-              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300 ">Jest</span>
+              <span class="border border-blue text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">Javascript</span>
+              <span class="border border-blue text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300 ">Jest</span>
             </div>
             <div class="mx-auto w-1/2 lg:w-1/2 pt-4 flex justify-around">
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://ray0h.github.io/peg-game" target="_blank">Live</a>
@@ -32,8 +32,8 @@
         </div>
         <div id="periodic-info-tech" class="mt-2">
           <div class="mx-auto w-full sm:w-1/2 flex justify-around">
-            <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">React</span>
-            <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">TailwindCSS</span>
+            <span class="border border-blue text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">React</span>
+            <span class="border border-blue text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">TailwindCSS</span>
           </div>
           <div class="w-1/2 lg:w-1/2 pt-4 flex justify-around mx-auto">
             <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://ray0h.github.io/periodic-table" target="_blank">Live</a>
@@ -50,9 +50,9 @@
           </div>
           <div id="inventory-info-tech" class="mt-4">
             <div class="flex justify-around w-full lg:w-full mx-auto">
-              <div class="text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">Node</div>
-              <div class="text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">Express</div>
-              <div class="text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">MongoDB</div>
+              <div class="border border-blue text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">Node</div>
+              <div class="border border-blue text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">Express</div>
+              <div class="border border-blue text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">MongoDB</div>
             </div>
             <div class="py-2 my-2 flex justify-around w-1/2 mx-auto">
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://node-inventory-app.herokuapp.com/" target="_blank">Live</a>

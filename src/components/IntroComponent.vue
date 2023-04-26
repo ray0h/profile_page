@@ -9,6 +9,7 @@
           <h2 class="font-bold sm:text-center text-xl sm:text-4xl">Hello, my name is <span class="text-blue-400">Ray</span></h2>
           <p class="mt-4 text-justify text-md sm:text-2xl">I am a Software Developer with a Materials R&D background based in the Bull City (Durham, NC).</p>
         </div>
+        <div class="rounded-full shadow-xl inline align-bottom"></div>
       </div>
     </div>
   </div>
@@ -23,5 +24,10 @@ export default {
 <style>
   .shad {
     box-shadow: 5px 5px 10px  rgb(184, 179, 179);
+  }
+
+  #test {
+    height: 50px;
+    width: 50px;
   }
 </style>
