@@ -1,16 +1,16 @@
 <template>
-  <div id="project-container" class="h-auto lg:h-screen bg-blue-300 mt-12 p-6">
-    <h3 class="font-bold text-2xl mb-4">Some Work I've done</h3>
-    <div id="grid-container" class="grid grid-rows-4 grid-cols-6 gap-4 h-auto md:h-4/5">
-      <div id="peg-game-container" class="bg-gray-100 border border-black rounded row-span-1 lg:row-span-4 col-span-6 lg:col-span-2"> 
-        <div id="peg-game-info" class="invisible p-4">
-          <div id="peg-game-info-text" class="mb-4">
+  <div id="project-container" class="h-auto lg:h-screen bg-blue-300 mt-12 p-12">
+    <h3 class="font-bold text-2xl lg:text-3xl mb-16">Some Things I've Built</h3>
+    <div id="grid-container" class="grid grid-rows-4 grid-cols-6 gap-8 h-auto md:h-3/5">
+      <div id="peg-game-container" class="border border-black rounded row-span-1 lg:row-span-4 col-span-6 lg:col-span-2 relative flex items-center"> 
+        <div id="peg-game-info" class="p-4 font-bold relative">
+          <div id="peg-game-info-text" class="text-lg xl:text-2xl mb-4">
             <span class="font-bold text-lg">Peg Game</span>
-            <p class="px-2 text-justify text-md sm:text-lg">
+            <p class="px-2 text-justify text-md xl:text-lg">
               Simple board game made famous by a national restaurant chain. Jump pegs until only one remains.  Made using simply vanilla JS and a Test Driven Development (TDD) approach with Jest.   
             </p>
           </div>
-          <div id="peg-game-info-tech">
+          <div id="peg-game-info-tech" class="mt-2">
             <div class="mx-auto w-full sm:w-3/5 flex justify-around">
               <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">Javascript</span>
               <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300 ">Jest</span>
@@ -22,31 +22,31 @@
           </div>
         </div>
       </div>
-      <div id="periodic-container" class="bg-gray-100 border border-black rounded row-span-1 lg:row-span-2 col-span-6 lg:col-span-4">
-        <div id="periodic-info" class="invisible p-4">
-          <div id="periodic-info-text">
-            <span class="font-bold text-lg">Periodic Table</span>
-            <p class="px-1 text-justify text-md xl:text-lg mb-4">
-            Front end, interactive periodic table.  Find out more about your favorite element (Swiping right on you Titanium).  Made using React and unashamedly modeled off other online periodic tables.
-            </p>
+    <div id="periodic-container" class="border border-black rounded row-span-1 lg:row-span-4 col-span-6 lg:col-span-2 relative flex items-center">
+      <div id="periodic-info" class="p-4 relative font-bold text-white">
+        <div id="periodic-info-text">
+          <span class="font-bold text-lg">Periodic Table</span>
+          <p class="px-1 text-justify text-md xl:text-lg mb-4">
+          Front end, interactive periodic table.  Find out more about your favorite element (Swiping right on you Titanium).  Made using React and unashamedly modeled off other online periodic tables.
+          </p>
+        </div>
+        <div id="periodic-info-tech" class="mt-2">
+          <div class="mx-auto w-full sm:w-1/2 flex justify-around">
+            <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">React</span>
+            <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">TailwindCSS</span>
           </div>
-          <div id="periodic-info-tech" class="mt-2">
-            <div class="w-full sm:w-3/5 flex justify-around mx-auto">
-              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">React</span>
-              <span class="text-xs sm:text-sm px-2 py-1 m-auto bg-blue-300">TailwindCSS</span>
-            </div>
-            <div class="w-1/2 lg:w-1/5 mt-2 flex justify-around mx-auto">
-              <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://ray0h.github.io/periodic-table" target="_blank">Live</a>
-              <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/periodic-table" target="_blank">Code</a>
-            </div>
+          <div class="w-1/2 lg:w-1/2 pt-4 flex justify-around mx-auto">
+            <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://ray0h.github.io/periodic-table" target="_blank">Live</a>
+            <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/periodic-table" target="_blank">Code</a>
           </div>
         </div>
       </div>
-      <div id="inventory-container" class="border border-black rounded row-span-1 lg:row-span-2 col-span-6 lg:col-span-2 bg-gray-100">
-        <div id="inventory-info" class="invisible p-4">
+    </div>
+      <div id="inventory-container" class="border border-black rounded row-span-1 lg:row-span-4 col-span-6 lg:col-span-2 relative flex items-center">
+        <div id="inventory-info" class="p-4 relative font-bold text-white">
           <div id="inventory-info-text">
             <span class="font-bold text-lg">Node Inventory App</span>
-            <p class="px-1 text-justify text-lg lg:text-sm xl:text-md">Backend based CRUD app to track a grocery store's inventory.  Views created with Pug compiler.</p>
+            <p class="px-1 text-justify text-lg lg:text-lg">Backend based CRUD app to track a grocery store's inventory.  Views created with Pug compiler.</p>
           </div>
           <div id="inventory-info-tech" class="mt-4">
             <div class="flex justify-around w-full lg:w-full mx-auto">
@@ -61,25 +61,6 @@
           </div>  
         </div>
       </div>
-      <div id="flightbooker-container" class="border border-black rounded row-span-1 lg:row-span-2 col-span-6 lg:col-span-2 bg-gray-100">
-        <div id="flightbooker-info" class="invisible p-4">
-          <div id="flightbooker-info-text">
-            <span class="font-bold text-lg">Airline Flight Booker</span>
-            <p class="text-lg lg:text-sm xl:text-md text-justify px-2">Rails app to book airline flights, with ActionMailer to send confirmation emails.</p>  
-          </div>
-          <div id="flightbooker-info-tech" class="mt-4">
-            <div class="flex justify-around w-full lg:w-full mx-auto">
-              <div class="text-xs sm:text-sm px-1 py-1 bg-blue-300 m-auto">Rails</div>
-              <div class="text-xs sm:text-sm px-1 py-1 bg-blue-300 m-auto">MongoDB</div>
-              <div class="text-xs sm:text-sm px-1 py-1 bg-blue-300 m-auto">Tailwind CSS</div>
-            </div>
-            <div class="w-1/2 py-2 my-2 mx-auto flex justify-around">
-              <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://rails-flightbooker-app.herokuapp.com/" target="_blank">Live</a>
-              <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/TOP-Rails-flight-booker" target="_blank">Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -91,34 +72,52 @@ export default {
 </script>
 
 <style>
-  #periodic-container {
+  #periodic-container::before {
+    content: "";
     background-image: url('../assets/periodictable.png');
+    background-size: cover;
     background-position: left center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    opacity: 0.2;
   }
-  #periodic-container:hover {
-    background-image: none;
-  }
-  #periodic-container:hover > #periodic-info {
-    visibility: visible;
-  }
-  #peg-game-container {
+
+  #peg-game-container::before {
+    content: "";
     background-image: url('../assets/peggame.png');
     background-size: 900px;
     background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    opacity: 0.2;
   }
-  #peg-game-container:hover {
+
+  /* #peg-game-container:hover {
     background-image: none;
   }
   #peg-game-container:hover > #peg-game-info {
     display: block;
     visibility: visible;
-  }
-  #inventory-container {
+  } */
+  #inventory-container::before {
+    content: "";
     background-image: url('../assets/inventory.png');
-    background-size: 900px;
-    background-position: left center;
+    background-size: 1000px;
+    background-position: left bottom;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    opacity: 0.2;
   }
-  #inventory-container:hover {
+  /* #inventory-container:hover {
     background-image: none;
   }
   #inventory-container:hover > #inventory-info {
@@ -135,7 +134,7 @@ export default {
   #flightbooker-container:hover > #flightbooker-info {
     display: block;
     visibility: visible;
-  }
+  } */
   /* .hoverable:hover {
     background-image: none;
   } */
