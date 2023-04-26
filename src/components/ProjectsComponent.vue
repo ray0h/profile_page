@@ -55,7 +55,7 @@
               <div class="border border-blue text-xs sm:text-sm px-2 py-1 bg-blue-300 m-auto">MongoDB</div>
             </div>
             <div class="py-2 my-2 flex justify-around w-1/2 mx-auto">
-              <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://node-inventory-app.herokuapp.com/" target="_blank">Live</a>
+              <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://top-node-inventory-app.onrender.com/" target="_blank">Live</a>
               <a class="text-md px-1 border border-black hover:bg-blue-200" href="https://github.com/ray0h/TOP-Node-InventoryApp" target="_blank">Code</a>
             </div>
           </div>  
