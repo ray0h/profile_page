@@ -7,7 +7,7 @@
       <div id="about-text" class="w-full sm:w-2/3">
         <p class="text-justify text-md sm:text-xl leading-tight lg:leading-normal">
           <span class="font-bold text-xl sm:text-2xl leading-tight">My name is Raymond Oh.</span> 
-          I am a Ceramics / Materials Engineer who has previously worked in manufacturing R&D roles.  During Covid, I fell in love with Javascript, Ruby and other fundamental web technologies and now seek to use my analytical problem solving experience for software development, ideally in a role having a social or environmental impact.
+          I am a Ceramics / Materials Engineer who has previously worked in manufacturing R&D roles.  During Covid, I fell in love with Javascript, Ruby and other fundamental web technologies and now seek to use my analytical problem solving experience for software development, ideally in roles having a social or environmental impact.
         </p><br/>
         <p class="text-justify text-md sm:text-xl leading-tight sm:leading-normal">
         I've taken the self taught approach and have learned using several wonderful online resources including (but not limited to) 
